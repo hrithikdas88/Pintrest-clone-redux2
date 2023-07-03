@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color:black;
+
+  .card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    flex: 1 0 200px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-image {
+      width: 100%;
+      height: auto;
+      margin-bottom: 8px;
+      border-radius: 8px;
+    }
+
+    .card-button {
+      background-color: #f0f0f0;
+      color: red;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: auto;
+      align-self: flex-end;
+      background-color: black;
+
+      &:hover {
+        background-color: black;
+      }
+    }
+  }
+}
+
+
